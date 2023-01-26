@@ -1,2 +1,3 @@
 # Porsche-Wallpaper-Gen
-Generate and save high quality random images of Porsches for your wallpaper!
+
+This program creates a window with a button labeled "Show Random Image." When the button is clicked, it pulls up a random image of a Porsche 930 with a resolution of 1920x1080 from the Unsplash API. The image is then resized to 600x400 pixels and displayed in the window. There is also a "Save Image" button which, when clicked, prompts the user to confirm if they would like to save the current displayed image to their desktop in full resolution. If the user confirms, the program saves the image to their desktop with a unique filename using the current timestamp. The program stays open and responsive to user input, so the user can continue to generate and save new images.
